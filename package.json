@@ -17,7 +17,9 @@
     "prettier": "prettier --check '**/*'",
     "lint": "yarn -s compile && yarn -s eslint && yarn -s prettier",
     "lint:fix": "yarn -s compile && yarn -s eslint --fix && yarn -s prettier --write",
-    "stack": "yarn -s workspace stack"
+    "compiler": "yarn -s workspace @edgy/compiler",
+    "functions": "yarn -s workspace @edgy/functions",
+    "stack": "yarn -s workspace @edgy/stack"
   },
   "dependencies": {
     "@types/jest": "*",
