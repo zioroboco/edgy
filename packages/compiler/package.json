@@ -2,6 +2,7 @@
   "name": "@edgy/compiler",
   "version": "0.0.0-private",
   "private": true,
+  "main": "lib",
   "scripts": {
     "compile": "cd ../.. && tsc -p packages/stack"
   },
