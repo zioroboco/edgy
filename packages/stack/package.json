@@ -1,0 +1,19 @@
+{
+  "name": "stack",
+  "version": "0.0.0-private",
+  "private": true,
+  "scripts": {
+    "compile": "cd ../.. && tsc -p packages/stack",
+    "cdk": "cdk --app bin/app.js"
+  },
+  "dependencies": {
+    "@aws-cdk/cloud-assembly-schema": "^1.33.0",
+    "@aws-cdk/core": "^1.33.0",
+    "@aws-cdk/cx-api": "^1.33.0",
+    "@types/js-yaml": "*",
+    "aws-cdk": "^1.33.0",
+    "constructs": "^3.0.1",
+    "jest-file-snapshot": "^0.3.8",
+    "js-yaml": "^3.13.1"
+  }
+}

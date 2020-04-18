@@ -2,7 +2,7 @@ import * as yaml from "js-yaml"
 import { resolve } from "path"
 import { toMatchFile } from "jest-file-snapshot"
 
-import { init } from "."
+import { init } from "../lib"
 
 expect.extend({ toMatchFile })
 

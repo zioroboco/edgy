@@ -9,6 +9,6 @@
 !*.yaml
 
 # Override and explicitly ignore...
-/node_modules/
-/coverage/
-/cdk.out/
+**/node_modules/
+**/coverage/
+**/cdk.out/
