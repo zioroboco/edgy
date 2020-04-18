@@ -10,12 +10,13 @@
     "postinstall": "yarn -s compile:build || yarn -s compile",
     "compile:build": "yarn -s log-build && wsrun tsc --build &> /dev/null",
     "log-build": "echo '🔩  Building type declarations...'",
-    "compile": "wsrun --no-prefix --report compile",
+    "wsrun": "wsrun --no-prefix --report",
+    "test": "yarn -s wsrun test",
+    "compile": "yarn -s wsrun compile",
     "eslint": "eslint . --ext .ts,.tsx",
     "prettier": "prettier --check '**/*'",
     "lint": "yarn -s compile && yarn -s eslint && yarn -s prettier",
     "lint:fix": "yarn -s compile && yarn -s eslint --fix && yarn -s prettier --write",
-    "test": "jest",
     "stack": "yarn -s workspace stack"
   },
   "dependencies": {

@@ -3,6 +3,7 @@
   "version": "0.0.0-private",
   "private": true,
   "scripts": {
+    "test": "cd ../.. && jest --config packages/stack/jest.config.js",
     "compile": "cd ../.. && tsc -p packages/stack",
     "cdk": "cdk --app bin/app.js"
   },
