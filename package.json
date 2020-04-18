@@ -11,7 +11,7 @@
     "compile:build": "yarn -s log-build && wsrun tsc --build &> /dev/null",
     "log-build": "echo '🔩  Building type declarations...'",
     "wsrun": "wsrun --no-prefix --report",
-    "test": "yarn -s wsrun --serial test",
+    "test": "jest",
     "compile": "yarn -s wsrun compile",
     "eslint": "eslint . --ext .ts,.tsx",
     "prettier": "prettier --check '**/*'",

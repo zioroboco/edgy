@@ -1,1 +1,3 @@
-it("works")
+it("works", () => {
+  expect(true)
+})
