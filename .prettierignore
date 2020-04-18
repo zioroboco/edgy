@@ -1,0 +1,14 @@
+# Ignore everything by default:
+*
+
+# Whitelist by file extension...
+!**/
+!*.ts
+!*.js
+!*.json
+!*.yaml
+
+# Override and explicitly ignore...
+/node_modules/
+/coverage/
+/cdk.out/
