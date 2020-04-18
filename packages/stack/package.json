@@ -1,5 +1,5 @@
 {
-  "name": "stack",
+  "name": "@edgy/stack",
   "version": "0.0.0-private",
   "private": true,
   "scripts": {

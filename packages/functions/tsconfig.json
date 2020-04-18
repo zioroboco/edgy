@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declarationDir": "./node_modules/.cache/declarations",
+    "tsBuildInfoFile": "./node_modules/.cache/tsbuildinfo.json",
+    "composite": true
+  },
+  "include": ["lib/**/*.ts", "spec/**/*.ts"]
+}
