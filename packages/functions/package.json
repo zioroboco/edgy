@@ -7,6 +7,8 @@
     "compile": "cd ../.. && tsc -p packages/stack"
   },
   "dependencies": {
-    "@types/aws-lambda": "^8.10.50"
+    "@types/aws-lambda": "^8.10.50",
+    "@types/ramda": "*",
+    "ramda": "^0.27.0"
   }
 }
